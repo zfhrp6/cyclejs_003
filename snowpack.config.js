@@ -7,19 +7,14 @@ module.exports = {
   plugins: [
     /* ... */
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
+  packageOptions: {
+    knownEntryPoints: [
+    ],
   },
   devOptions: {
     /* ... */
   },
   buildOptions: {
-    /* ... */
-  },
-  proxy: {
     /* ... */
   },
   alias: {
